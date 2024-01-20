@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="accordion" id="ejemploAcordeon">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button data-bs-toggle="collapse" data-bs-target="#element1accordion" class="accordion-button">Ejemplo 1</button>
+        </h2>
+        <div id="element1accordion" class="accordion-collapse collapse show" data-bs-parent="#ejemploAcordeon">
+            <div class="accordion-body">
+                Este es el contenido del primer elemento
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button data-bs-toggle="collapse" data-bs-target="#element2accordion" class="accordion-button">Ejemplo 2</button>
+        </h2>
+        <div id="element2accordion" class="accordion-collapse collapse" data-bs-parent="#ejemploAcordeon">
+            <div class="accordion-body">
+                Este es el contenido del segundo elemento
+            </div>
+        </div>
+    </div>
+</div>
